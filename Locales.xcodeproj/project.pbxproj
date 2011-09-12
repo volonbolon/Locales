@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B02443C7141EB0950086B1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443C6141EB0950086B1CF /* UIKit.framework */; };
+		B02443C9141EB0950086B1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443C8141EB0950086B1CF /* Foundation.framework */; };
+		B02443CB141EB0950086B1CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443CA141EB0950086B1CF /* CoreGraphics.framework */; };
+		B02443D1141EB0950086B1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B02443CF141EB0950086B1CF /* InfoPlist.strings */; };
+		B02443D3141EB0950086B1CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02443D2141EB0950086B1CF /* main.m */; };
+		B02443D7141EB0950086B1CF /* LocalesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02443D6141EB0950086B1CF /* LocalesAppDelegate.m */; };
+		B02443DA141EB0950086B1CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02443D8141EB0950086B1CF /* MainWindow.xib */; };
+		B02443DD141EB0950086B1CF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02443DC141EB0950086B1CF /* RootViewController.m */; };
+		B02443E0141EB0950086B1CF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B02443DE141EB0950086B1CF /* RootViewController.xib */; };
+		B02443E8141EB0950086B1CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443E7141EB0950086B1CF /* SenTestingKit.framework */; };
+		B02443E9141EB0950086B1CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443C6141EB0950086B1CF /* UIKit.framework */; };
+		B02443EA141EB0950086B1CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443C8141EB0950086B1CF /* Foundation.framework */; };
+		B02443EB141EB0950086B1CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02443CA141EB0950086B1CF /* CoreGraphics.framework */; };
+		B02443F3141EB0950086B1CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B02443F1141EB0950086B1CF /* InfoPlist.strings */; };
+		B02443F5141EB0950086B1CF /* LocalesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B02443F4141EB0950086B1CF /* LocalesTests.h */; };
+		B02443F7141EB0950086B1CF /* LocalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B02443F6141EB0950086B1CF /* LocalesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B02443EC141EB0950086B1CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B02443B9141EB0950086B1CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B02443C1141EB0950086B1CF;
+			remoteInfo = Locales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B02443C2141EB0950086B1CF /* Locales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02443C6141EB0950086B1CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B02443C8141EB0950086B1CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B02443CA141EB0950086B1CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B02443CE141EB0950086B1CF /* Locales-Info.plist */ = {isa = PBXFileReference; path = "Locales-Info.plist"; sourceTree = "<group>"; };
+		B02443D0141EB0950086B1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B02443D2141EB0950086B1CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B02443D4141EB0950086B1CF /* Locales-Prefix.pch */ = {isa = PBXFileReference; path = "Locales-Prefix.pch"; sourceTree = "<group>"; };
+		B02443D5141EB0950086B1CF /* LocalesAppDelegate.h */ = {isa = PBXFileReference; path = LocalesAppDelegate.h; sourceTree = "<group>"; };
+		B02443D6141EB0950086B1CF /* LocalesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalesAppDelegate.m; sourceTree = "<group>"; };
+		B02443D9141EB0950086B1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B02443DB141EB0950086B1CF /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		B02443DC141EB0950086B1CF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B02443DF141EB0950086B1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		B02443E6141EB0950086B1CF /* LocalesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02443E7141EB0950086B1CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B02443F0141EB0950086B1CF /* LocalesTests-Info.plist */ = {isa = PBXFileReference; path = "LocalesTests-Info.plist"; sourceTree = "<group>"; };
+		B02443F2141EB0950086B1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B02443F4141EB0950086B1CF /* LocalesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalesTests.h; sourceTree = "<group>"; };
+		B02443F6141EB0950086B1CF /* LocalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B02443BF141EB0950086B1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443C7141EB0950086B1CF /* UIKit.framework in Frameworks */,
+				B02443C9141EB0950086B1CF /* Foundation.framework in Frameworks */,
+				B02443CB141EB0950086B1CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02443E2141EB0950086B1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443E8141EB0950086B1CF /* SenTestingKit.framework in Frameworks */,
+				B02443E9141EB0950086B1CF /* UIKit.framework in Frameworks */,
+				B02443EA141EB0950086B1CF /* Foundation.framework in Frameworks */,
+				B02443EB141EB0950086B1CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B02443B7141EB0950086B1CF = {
+			isa = PBXGroup;
+			children = (
+				B02443CC141EB0950086B1CF /* Locales */,
+				B02443EE141EB0950086B1CF /* LocalesTests */,
+				B02443C5141EB0950086B1CF /* Frameworks */,
+				B02443C3141EB0950086B1CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B02443C3141EB0950086B1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B02443C2141EB0950086B1CF /* Locales.app */,
+				B02443E6141EB0950086B1CF /* LocalesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B02443C5141EB0950086B1CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B02443C6141EB0950086B1CF /* UIKit.framework */,
+				B02443C8141EB0950086B1CF /* Foundation.framework */,
+				B02443CA141EB0950086B1CF /* CoreGraphics.framework */,
+				B02443E7141EB0950086B1CF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02443CC141EB0950086B1CF /* Locales */ = {
+			isa = PBXGroup;
+			children = (
+				B02443D5141EB0950086B1CF /* LocalesAppDelegate.h */,
+				B02443D6141EB0950086B1CF /* LocalesAppDelegate.m */,
+				B02443D8141EB0950086B1CF /* MainWindow.xib */,
+				B02443DB141EB0950086B1CF /* RootViewController.h */,
+				B02443DC141EB0950086B1CF /* RootViewController.m */,
+				B02443DE141EB0950086B1CF /* RootViewController.xib */,
+				B02443CD141EB0950086B1CF /* Supporting Files */,
+			);
+			path = Locales;
+			sourceTree = "<group>";
+		};
+		B02443CD141EB0950086B1CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02443CE141EB0950086B1CF /* Locales-Info.plist */,
+				B02443CF141EB0950086B1CF /* InfoPlist.strings */,
+				B02443D2141EB0950086B1CF /* main.m */,
+				B02443D4141EB0950086B1CF /* Locales-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B02443EE141EB0950086B1CF /* LocalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B02443F4141EB0950086B1CF /* LocalesTests.h */,
+				B02443F6141EB0950086B1CF /* LocalesTests.m */,
+				B02443EF141EB0950086B1CF /* Supporting Files */,
+			);
+			path = LocalesTests;
+			sourceTree = "<group>";
+		};
+		B02443EF141EB0950086B1CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B02443F0141EB0950086B1CF /* LocalesTests-Info.plist */,
+				B02443F1141EB0950086B1CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B02443C1141EB0950086B1CF /* Locales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02443FA141EB0950086B1CF /* Build configuration list for PBXNativeTarget "Locales" */;
+			buildPhases = (
+				B02443BE141EB0950086B1CF /* Sources */,
+				B02443BF141EB0950086B1CF /* Frameworks */,
+				B02443C0141EB0950086B1CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locales;
+			productName = Locales;
+			productReference = B02443C2141EB0950086B1CF /* Locales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B02443E5141EB0950086B1CF /* LocalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02443FD141EB0950086B1CF /* Build configuration list for PBXNativeTarget "LocalesTests" */;
+			buildPhases = (
+				B02443E1141EB0950086B1CF /* Sources */,
+				B02443E2141EB0950086B1CF /* Frameworks */,
+				B02443E3141EB0950086B1CF /* Resources */,
+				B02443E4141EB0950086B1CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B02443ED141EB0950086B1CF /* PBXTargetDependency */,
+			);
+			name = LocalesTests;
+			productName = LocalesTests;
+			productReference = B02443E6141EB0950086B1CF /* LocalesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B02443B9141EB0950086B1CF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B02443BC141EB0950086B1CF /* Build configuration list for PBXProject "Locales" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B02443B7141EB0950086B1CF;
+			productRefGroup = B02443C3141EB0950086B1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B02443C1141EB0950086B1CF /* Locales */,
+				B02443E5141EB0950086B1CF /* LocalesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B02443C0141EB0950086B1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443D1141EB0950086B1CF /* InfoPlist.strings in Resources */,
+				B02443DA141EB0950086B1CF /* MainWindow.xib in Resources */,
+				B02443E0141EB0950086B1CF /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02443E3141EB0950086B1CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443F3141EB0950086B1CF /* InfoPlist.strings in Resources */,
+				B02443F5141EB0950086B1CF /* LocalesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B02443E4141EB0950086B1CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B02443BE141EB0950086B1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443D3141EB0950086B1CF /* main.m in Sources */,
+				B02443D7141EB0950086B1CF /* LocalesAppDelegate.m in Sources */,
+				B02443DD141EB0950086B1CF /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02443E1141EB0950086B1CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02443F7141EB0950086B1CF /* LocalesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B02443ED141EB0950086B1CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B02443C1141EB0950086B1CF /* Locales */;
+			targetProxy = B02443EC141EB0950086B1CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B02443CF141EB0950086B1CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02443D0141EB0950086B1CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B02443D8141EB0950086B1CF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02443D9141EB0950086B1CF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B02443DE141EB0950086B1CF /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02443DF141EB0950086B1CF /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		B02443F1141EB0950086B1CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B02443F2141EB0950086B1CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B02443F8141EB0950086B1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B02443F9141EB0950086B1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B02443FB141EB0950086B1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locales/Locales-Prefix.pch";
+				INFOPLIST_FILE = "Locales/Locales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B02443FC141EB0950086B1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locales/Locales-Prefix.pch";
+				INFOPLIST_FILE = "Locales/Locales-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B02443FE141EB0950086B1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Locales.app/Locales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locales/Locales-Prefix.pch";
+				INFOPLIST_FILE = "LocalesTests/LocalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B02443FF141EB0950086B1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Locales.app/Locales";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Locales/Locales-Prefix.pch";
+				INFOPLIST_FILE = "LocalesTests/LocalesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B02443BC141EB0950086B1CF /* Build configuration list for PBXProject "Locales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02443F8141EB0950086B1CF /* Debug */,
+				B02443F9141EB0950086B1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02443FA141EB0950086B1CF /* Build configuration list for PBXNativeTarget "Locales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02443FB141EB0950086B1CF /* Debug */,
+				B02443FC141EB0950086B1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B02443FD141EB0950086B1CF /* Build configuration list for PBXNativeTarget "LocalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B02443FE141EB0950086B1CF /* Debug */,
+				B02443FF141EB0950086B1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B02443B9141EB0950086B1CF /* Project object */;
+}
