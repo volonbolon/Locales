@@ -1,0 +1,1 @@
+Toy application to show how to use `NSLocale` and other localization APIs. See [Internationalization and Localization in iOS](http://volonbolon.net/post/10170809077/internationalization-and-localization-in-ios) for more details
