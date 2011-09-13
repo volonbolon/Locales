@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UITableViewController
-
+@property (nonatomic, readonly, copy) NSArray *identifiers; 
+@property (nonatomic, readonly, copy) NSArray *keys; 
 @end
